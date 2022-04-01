@@ -2,9 +2,9 @@ import React from 'react';
 
 function Dice(props) {
   return (
-    <div>
+    <span>
       <i className={`Dice fa-solid fa-dice-${props.face}`}></i>
-    </div>
+    </span>
   );
 }
 
